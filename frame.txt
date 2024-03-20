@@ -1,0 +1,78 @@
+machine_learning_project/
+│
+├── venv/                     <- Virtual environment directory
+│
+├── data/
+│   ├── raw_data/
+│   │   └── raw_data.csv
+│   │
+│   ├── processed_data/
+│   │   └── processed_data.csv
+│   │
+│   └── train_test_split/
+│       ├── train_data.csv
+│       └── test_data.csv
+│
+├── notebooks/
+│   ├── exploratory_data_analysis.ipynb
+│   ├── feature_engineering.ipynb
+│   └── model_training_evaluation.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_selection.py
+│   └── model_evaluation.py
+│
+├── models/
+│   └── trained_model.pkl
+│
+├── deployment/
+│   ├── api/
+│   │   ├── app.py
+│   │   └── requirements.txt
+│   │
+│   └── deployment_scripts/
+│       ├── deploy_model.sh
+│       └── update_model.sh
+│
+├── documentation/
+│   ├── project_documentation.md
+│   └── model_api_documentation.md
+│
+├── tests/
+│   ├── test_data_preprocessing.py
+│   ├── test_feature_engineering.py
+│   ├── test_model_selection.py
+│   └── test_model_evaluation.py
+│
+├── config/
+│   ├── config.yaml
+│   └── hyperparameters.yaml
+│
+├── utils/
+│   ├── __init__.py
+│   ├── data_utils.py
+│   ├── model_utils.py
+│   └── logger.py
+│
+├── logs/
+│   └── ml_project.log
+│
+├── warehouse/
+│   ├── mongo/
+│   │   ├── __init__.py
+│   │   └── mongo_setup.py
+│   │
+│   └── postgresql/
+│       ├── __init__.py
+│       └── postgresql_setup.py
+│
+├── frontend/
+│   ├── app.py
+│   └── requirements.txt
+│
+├── requirements.txt          <- List of libraries for the project
+├── .gitignore
+└── README.md
